@@ -88,7 +88,8 @@ class SortAlgorithmsTest {
         public Stream<? extends Arguments> provideArguments(ExtensionContext extensionContext) {
             return Stream.of(
                     Arguments.of(new BubbleSortAlgorithm<>(), "bubble sort"),
-                    Arguments.of(new ChoseSortAlgorithm<>(), "chose sort")
+                    Arguments.of(new ChoseSortAlgorithm<>(), "chose sort"),
+                    Arguments.of(new InsertSortAlgorithm<>(), "insert sort")
 
             );
         }
