@@ -1,6 +1,10 @@
 package me.imatveev.althorithms.impl;
 
-public final class ChoseSort<T extends Comparable<T>> extends AbstractSort<T> {
+/**
+ * <h2>@complexity - O(N^2)</h2>
+ * <h3>but count of swapping is less then bubble-sort algorithm's count</h3>
+ */
+public final class ChoseSortAlgorithm<T extends Comparable<T>> extends AbstractSortAlgorithm<T> {
     @Override
     public T[] sort(T[] array) {
         // from first to penultimate

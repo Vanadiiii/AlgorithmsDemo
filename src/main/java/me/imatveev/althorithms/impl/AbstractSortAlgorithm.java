@@ -1,8 +1,8 @@
 package me.imatveev.althorithms.impl;
 
-import me.imatveev.althorithms.Sort;
+import me.imatveev.althorithms.SortAlgorithm;
 
-public abstract class AbstractSort<T extends Comparable<T>> implements Sort<T> {
+public abstract class AbstractSortAlgorithm<T extends Comparable<T>> implements SortAlgorithm<T> {
     protected void swap(T[] array, int index0, int index1) {
         T swapped = array[index0];
         array[index0] = array[index1];
